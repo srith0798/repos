@@ -1,0 +1,19 @@
+/* Write your CSS here */
+.tab-item {
+  width: 100px;
+  margin: 0 16px;
+}
+
+.nav-btn {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.color-mark {
+  border: 1px solid #0284c7;
+  border-radius: 8px;
+  color: #0284c7;
+}

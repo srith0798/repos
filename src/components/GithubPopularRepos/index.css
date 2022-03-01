@@ -1,0 +1,59 @@
+/* Write your CSS here */
+.bg-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.title {
+  color: #0f172a;
+  font-family: 'Lobster';
+  font-size: 40px;
+}
+
+.tab-list {
+  list-style-type: none;
+  display: flex;
+}
+
+.popular-list {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.popular-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 16px;
+  background-color: #f8f8ff;
+  border-radius: 8px;
+  width: 200px;
+}
+
+.item-logo {
+  width: 100px;
+  margin-top: 10px;
+}
+
+.pop-head {
+  font-size: 16px;
+  color: #e73959;
+}
+
+.pop-box {
+  display: flex;
+  align-items: center;
+}
+
+.icon {
+  width: 15px;
+  height: 15px;
+  margin-right: 10px;
+}
+
+.icon-info {
+  font-size: 12px;
+}
